@@ -11,5 +11,5 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+mix.js('addons/default/zorca/pyrocms-theme/resources/js/main.js', 'public/js')
+   .sass('addons/default/zorca/pyrocms-theme/resources/scss/main.scss', 'public/css');

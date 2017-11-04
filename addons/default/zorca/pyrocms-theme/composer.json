@@ -1,9 +1,9 @@
 {
-    "name": "defr/apperle-theme",
+    "name": "zorca/pyrocms-theme",
     "type": "streams-addon",
     "autoload": {
         "psr-4": {
-            "Defr\\ApperleTheme\\": "src/"
+            "Zorca\\PyrocmsTheme\\": "src/"
         }
     }
 }

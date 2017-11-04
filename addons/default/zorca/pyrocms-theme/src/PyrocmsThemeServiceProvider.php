@@ -1,9 +1,9 @@
-<?php namespace Defr\ApperleTheme;
+<?php namespace Zorca\PyrocmsTheme;
 
 use Anomaly\Streams\Platform\Addon\AddonServiceProvider;
 use Illuminate\Routing\Router;
 
-class ApperleThemeServiceProvider extends AddonServiceProvider
+class PyrocmsThemeServiceProvider extends AddonServiceProvider
 {
 
     /**
@@ -47,7 +47,7 @@ class ApperleThemeServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $middleware = [
-        //Defr\ApperleTheme\Http\Middleware\ExampleMiddleware::class
+        //Zorca\PyrocmsTheme\Http\Middleware\ExampleMiddleware::class
     ];
 
     /**
@@ -57,7 +57,7 @@ class ApperleThemeServiceProvider extends AddonServiceProvider
      */
     protected $groupMiddleware = [
         //'web' => [
-        //    Defr\ApperleTheme\Http\Middleware\ExampleMiddleware::class,
+        //    Zorca\PyrocmsTheme\Http\Middleware\ExampleMiddleware::class,
         //],
     ];
 
@@ -74,8 +74,8 @@ class ApperleThemeServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $listeners = [
-        //Defr\ApperleTheme\Event\ExampleEvent::class => [
-        //    Defr\ApperleTheme\Listener\ExampleListener::class,
+        //Zorca\PyrocmsTheme\Event\ExampleEvent::class => [
+        //    Zorca\PyrocmsTheme\Listener\ExampleListener::class,
         //],
     ];
 
@@ -85,7 +85,7 @@ class ApperleThemeServiceProvider extends AddonServiceProvider
      * @type array|null
      */
     protected $aliases = [
-        //'Example' => Defr\ApperleTheme\Example::class
+        //'Example' => Zorca\PyrocmsTheme\Example::class
     ];
 
     /**
